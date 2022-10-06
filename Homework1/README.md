@@ -1,15 +1,17 @@
 # Network-Science-COM530500-Homework1
 ## igraph
 https://igraph.org/python/versions/latest/api/index.html
+igraph                    0.10.1
 ```powershell
 conda install -c conda-forge python-igraph
 ```
 ## pandas
+pandas                    1.5.0  
 ```
 conda install -c anaconda pandas
 ```
 ## Coding 
-(py3.8)
+Python                    3.8
 ```py
 import igraph as ig                         #圖形分析資料庫
 import pandas as pd                         #資料分析函式庫
