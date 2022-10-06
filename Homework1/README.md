@@ -1,9 +1,14 @@
 # Network-Science-COM530500-Homework1
-##igraph
-
-##pandas
-
-***python
+## igraph
+```powershell
+conda install -c conda-forge python-igraph
+```
+## pandas
+```
+conda install -c anaconda pandas
+```
+## Coding
+```py
 import igraph as ig                         #圖形分析資料庫
 import pandas as pd                         #資料分析函式庫
 
@@ -19,4 +24,4 @@ print("Maximum degree:%d"%g.maxdegree())	#item Maximum degree
 print("Diameter:%d"%g.diameter())           #item Diameter
 #print(g.farthest_points())                 #degree的路徑頭尾兩個點，加度數
 #print(g.get_diameter())                    #diameter路徑
-***
+```
