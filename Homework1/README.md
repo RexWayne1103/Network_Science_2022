@@ -1,15 +1,37 @@
 # Network-Science-COM530500-Homework1
+on python 3.8.13
 ## igraph
-https://igraph.org/python/versions/latest/api/index.html
 ```powershell
-conda install -c conda-forge python-igraph
+$ conda install -c conda-forge python-igraph
 ```
 ## pandas
-```
-conda install -c anaconda pandas
+```powershell
+$ conda install -c anaconda pandas
 ```
 ## Coding
-```py
+**Problem 5.**(15%) Read the tutorial from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial) to install Python3 and python-igraph (if you need).
+
+Paste your screenshots of “Hello, World!” of both Python 3 (5%) and python-igraph (5%),and write a brief report (5%). (For example, you can write down some problems you encountered,and how you solved them.)
+
+```python
+from igraph import *
+
+g = Graph()
+print(g)
+print("Hello, World!")
+
+exit()
+```
+**Problem 6.**(35%) Please download the tvshow dataset from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial),and find the following information from this dataset.
+  • Number of nodes. (5%)
+  • Number of edges. (5%)
+  • Mean degree. (5%)
+  • Maximum degree. (5%)
+  • Diameter. (5%)
+  You need to upload your python source code to eLearn, and write a brief report (10%)
+including screenshots, README file, and descriptions of your code below the solution
+area. There
+```python
 import igraph as ig                         #圖形分析資料庫
 import pandas as pd                         #資料分析函式庫
 
