@@ -1,15 +1,20 @@
 # Network-Science-COM530500-Homework1
-on python 3.8.13
-## igraph
+[RexWayne1103/Network_Science_2022](https://github.com/RexWayne1103/Network_Science_2022)
+## Requirements
+* python 3.8.13
+* igraph 0.10.1
+* pandas 1.5.0
+### igraph
 ```powershell
 $ conda install -c conda-forge python-igraph
 ```
-## pandas
+### pandas
 ```powershell
 $ conda install -c anaconda pandas
 ```
 ## Coding
-**Problem 5.**(15%) Read the tutorial from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial) to install Python3 and python-igraph (if you need).
+### Problem 5.(15%) 
+Read the tutorial from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial) to install Python3 and python-igraph (if you need).
 
 Paste your screenshots of “Hello, World!” of both Python 3 (5%) and python-igraph (5%),and write a brief report (5%). (For example, you can write down some problems you encountered,and how you solved them.)
 
@@ -22,7 +27,8 @@ print("Hello, World!")
 
 exit()
 ```
-**Problem 6.**(35%) Please download the tvshow dataset from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial),and find the following information from this dataset.
+### Problem 6.(35%) 
+Please download the tvshow dataset from [Ping-En Lu’s GitHub repository](https://github.com/PingEnLu/Network-Science-COM530500/tree/master/Network_Science_Python_iGraph_Tutorial),and find the following information from this dataset.
   • Number of nodes. (5%)
   • Number of edges. (5%)
   • Mean degree. (5%)
